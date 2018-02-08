@@ -1,11 +1,11 @@
-Teletext Marketer sms gateway api client
-
-Required python modules:
+**Teletext Marketer sms gateway api client**
+============================================
+## Required python modules:
 
 - requests
 
 
-Standalone:
+## Standalone:
 ```
 usage: teletext_marketer_api_client.py [-h] [-u USERNAME] [-p PASSWORD] [-s SENDER] [-r RECIPIENT] [-m MESSAGE]
 
@@ -28,7 +28,7 @@ optional arguments:
                         Message
 ```
 
-As module:
+## As module:
 ```
 from textmarketer_sms_client import TMapi
 
@@ -36,7 +36,7 @@ client = TMapi(username='username', password='password')
 client.send_sms(sender='Sender ID',recipient='447766554433',message='This is a sample message')
 ```
 
-Result:
+### Result:
 
 ```
 > SUCCESS
