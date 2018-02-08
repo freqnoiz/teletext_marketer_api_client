@@ -1,7 +1,8 @@
 Teletext Marketer sms gateway api client
 
-Requires:
--requests
+Required python modules:
+
+- requests
 
 
 ```
