@@ -5,9 +5,8 @@ Required python modules:
 - requests
 
 
-```
 Standalone:
-
+```
 usage: textmarketer-sms-client.py [-h] [-u USERNAME] [-p PASSWORD] [-s SENDER]
                                   [-r RECIPIENT] [-m MESSAGE]
 
